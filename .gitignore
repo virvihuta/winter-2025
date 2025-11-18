@@ -1,0 +1,82 @@
+# ------------------------------------
+# OS Files
+# ------------------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------------------
+# Python & Virtual Environment
+# ------------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+.venv/
+
+# ------------------------------------
+# Jupyter Notebook
+# ------------------------------------
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/*
+
+# ------------------------------------
+# Data Files (NEVER upload large datasets)
+# ------------------------------------
+Datasets/
+data/
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.json
+*.parquet
+*.feather
+*.hdf5
+*.h5
+*.pickle
+*.pkl
+
+# ------------------------------------
+# Model outputs
+# ------------------------------------
+*.ckpt
+*.pt
+*.pth
+*.h5
+*.onnx
+*.tflite
+*.joblib
+
+# ------------------------------------
+# Logs & Training artifacts
+# ------------------------------------
+logs/
+*.log
+wandb/
+mlruns/
+tensorboard/
+
+# ------------------------------------
+# Cache
+# ------------------------------------
+.cache/
+*.cache/
+*.tmp
+*.temp
+
+# ------------------------------------
+# VS Code
+# ------------------------------------
+.vscode/
+*.code-workspace
+
+# ------------------------------------
+# Environment variables
+# ------------------------------------
+.env
+.env.*
+*.secret
+*.token
+
